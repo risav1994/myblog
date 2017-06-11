@@ -1,0 +1,48 @@
+# Only allow direct access to specific Web-available files.
+
+# Apache 2.2
+<IfModule !mod_authz_core.c>
+	Order Deny,Allow
+	Deny from all
+</IfModule>
+
+# Apache 2.4
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+
+# Akismet CSS and JS
+<FilesMatch "^(form\.js|akismet\.js|akismet\.css)$">
+	<IfModule !mod_authz_core.c>
+		Allow from all
+	</IfModule>
+	
+	<IfModule mod_authz_core.c>
+		Require all granted
+	</IfModule>
+</FilesMatch>
+
+# Akismet images
+<FilesMatch "^logo-full-2x\.png$">
+	<IfModule !mod_authz_core.c>
+		Allow from all
+	</IfModule>
+	
+	<IfModule mod_authz_core.c>
+		Require all granted
+	</IfModule>
+</FilesMatch>
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Removes index.php from ExpressionEngine URLs
+    RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+    RewriteCond %{REQUEST_URI} !/system/.* [NC]
+    RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+
+    # Directs all EE web requests through the site index file
+    RewriteCond %{THE_REQUEST} ^GET.*index\.php [NC]
+    RewriteCond %{REQUEST_URI} !/system/.* [NC]
+    RewriteRule (.*?)index\.php/*(.*) /$1$2 [R=301,NE,L]
+</IfModule>

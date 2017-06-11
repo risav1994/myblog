@@ -1,0 +1,554 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-10-02T11:38:34+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
+"Last-Translator: mehdimazzout <http://www.blackweb.esy.es/>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: Morocco\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "%s visits"
+msgstr ""
+
+msgid "3 Year"
+msgstr "العام3"
+
+msgid "1 Year"
+msgstr "العام 1"
+
+msgid "6 Month"
+msgstr "الشهر 6"
+
+msgid "1 Month"
+msgstr "الشهر 1"
+
+msgid "2 Week"
+msgstr "الأسبوع 2"
+
+msgid "1 Week"
+msgstr "الأسبوع 1"
+
+msgid "Accept"
+msgstr "استعرض"
+
+msgid "Refuse"
+msgstr "رفض"
+
+msgid "The authentication with Google Analytics is successful"
+msgstr "المصادقة مع جوجل تحليلات&quot;Google Analytics&quot; ناجحة"
+
+msgid "The authentication with Google Analytics have failed... please retry!"
+msgstr "المصادقة مع جوجل تحليلات&quot;Google Analytics&quot; فشلت ... يرجى إعادة المحاولة!"
+
+msgid "The Google Analytics's authorization has been revoked as requested"
+msgstr "تم إبطال التفويض برنامج Google Analytics كما هو مطلوب"
+
+msgid "Local Web Statistics"
+msgstr "الاحصائيات الويب المحلية"
+
+msgid "Do you want to manage the web statistics locally?"
+msgstr "هل تريد إدارة الإحصاءات على شبكة الإنترنت محليا؟"
+
+msgid "If so, stats will be stored in the local SQL database. Be sure that you have free space into your database"
+msgstr "إذا كان الأمر كذلك، سيتم تخزين احصائيات في قاعدة البيانات SQL المحلية. تأكد من أن لديك مساحة حرة في قاعدة البيانات"
+
+msgid "The next compression of the database will occur on %s"
+msgstr "فإن الضغط القادم من قاعدة البيانات تحدث على %s"
+
+msgid "Do you want to display the last viewed pages?"
+msgstr "هل تريد عرض الصفحات تصفحا الماضية؟"
+
+msgid "If so, a list of the last viewed pages will be displayed including IP of the user, the url of the viewed page, the time, the referer, the browser name, the OS name, etc."
+msgstr "إذا كان الأمر كذلك، سيتم عرض قائمة الصفحات تصفحا مشاركة بما IP للمستخدم، وعنوان الموقع من صفحة في الموقع، والوقت، والتحويلات، واسم المتصفح، اسم نظام التشغيل، الخ"
+
+msgid "How many pages should be displayed?"
+msgstr "عدد الصفحات يجب عرض؟"
+
+msgid "How many days do you want to keep detailed info in your database?"
+msgstr "كم يوما هل تريد أن تبقي معلومات مفصلة في قاعدة البيانات الخاصة بك؟"
+
+msgid "All detailled info will be used for the geolocation (see below)."
+msgstr "وسيتم استخدام جميع المعلومات التفصيلية لتحديد الموقع الجغرافي (انظر أدناه)."
+
+msgid "It is recommended to keep the detailled information no more than %s days."
+msgstr ""
+
+msgid "Show statistics on number of visits and viewed pages?"
+msgstr ""
+
+msgid "Show statistics on the OS and browser types of your visitors?"
+msgstr ""
+
+msgid "What are the period for which charts should be provided?"
+msgstr ""
+
+msgid "Do you want to track the logged user?"
+msgstr ""
+
+msgid "Show the number of current connected users on your website"
+msgstr ""
+
+msgid "Configure the local statistics to be compatible with French CNIL's recommandations"
+msgstr ""
+
+msgid "The last two bytes of the IP will be masked and a small banner to allow the user to refuse cookies will be displayed on the front side."
+msgstr ""
+
+msgid "The HTML to be displayed for the banner to be compatible with French CNIL's recommandations."
+msgstr ""
+
+msgid "The French CNIL recommends to add buttons in a page to inform the users that he can refuse / allow the cookies (in addition of the banner)."
+msgstr ""
+
+msgid "You can add these buttons in any posts/pages with this code %s."
+msgstr ""
+
+msgid "Use %s to know from where your users are."
+msgstr ""
+
+msgid "The API key for %s."
+msgstr ""
+
+msgid "You have to create your own key on %s."
+msgstr ""
+
+msgid "You API key appears to be correct."
+msgstr ""
+
+msgid "Your server appears to be located in %s."
+msgstr ""
+
+msgid "There was a problem while contacting the server."
+msgstr ""
+
+msgid "Show the World map."
+msgstr ""
+
+msgid "Show the European map."
+msgstr ""
+
+msgid "Show a state map."
+msgstr ""
+
+msgid "This is a comma separated list."
+msgstr ""
+
+msgid "Use %s for the Argentina map."
+msgstr ""
+
+msgid "Use %s for the Australia map."
+msgstr ""
+
+msgid "Use %s for the Austria map."
+msgstr ""
+
+msgid "Use %s for the Beligium map."
+msgstr ""
+
+msgid "Use %s for the Canadia map."
+msgstr ""
+
+msgid "Use %s for the Chinese map."
+msgstr ""
+
+msgid "Use %s for the Colombian map."
+msgstr ""
+
+msgid "Use %s for the Denmark map."
+msgstr ""
+
+msgid "Use %s for the France map."
+msgstr ""
+
+msgid "Use %s for the Germany map."
+msgstr ""
+
+msgid "Use %s for the India map."
+msgstr ""
+
+msgid "Use %s for the Italy map."
+msgstr ""
+
+msgid "Use %s for the Netherlands map."
+msgstr ""
+
+msgid "Use %s for the New Zealand map."
+msgstr ""
+
+msgid "Use %s for the Norway map."
+msgstr ""
+
+msgid "Use %s for the Philippines map."
+msgstr ""
+
+msgid "Use %s for the Poland map."
+msgstr ""
+
+msgid "Use %s for the Portugal map."
+msgstr ""
+
+msgid "Use %s for the South Africa map."
+msgstr ""
+
+msgid "Use %s for the Spain map."
+msgstr ""
+
+msgid "Use %s for the Sweden map."
+msgstr ""
+
+msgid "Use %s for the Switzerland map."
+msgstr ""
+
+msgid "Use %s for the Thailand map."
+msgstr ""
+
+msgid "Use %s for the UK map."
+msgstr ""
+
+msgid "Use %s for the USA map."
+msgstr ""
+
+msgid "Use %s for the Venezuela map."
+msgstr ""
+
+msgid "Google Analytics Web Statistics"
+msgstr ""
+
+msgid "Do you want to manage the web statistics with Google Analytics?"
+msgstr ""
+
+msgid "For additional information, please visit the %s website. Moreover you could see all your authorized accesses on this %spage%s."
+msgstr ""
+
+msgid "Google Analytics ID:"
+msgstr ""
+
+msgid "The Google Analytics ID is should be similar to %s."
+msgstr ""
+
+msgid "You may also %sauthenticate%s with your Google account and thus ease the process."
+msgstr ""
+
+msgid "For now, this page is authenticated with your Google Analytics accounts. %sUnapprove the authentication%s"
+msgstr ""
+
+msgid "Select..."
+msgstr ""
+
+msgid "Choose your website in this list"
+msgstr ""
+
+msgid "Please note that the Google Analytics ID for %s is %s."
+msgstr ""
+
+msgid "No Google Analytics ID configured for now."
+msgstr ""
+
+msgid "Do you want to use the %s?"
+msgstr ""
+
+msgid "What is the API key?"
+msgstr ""
+
+msgid "This API key is useful to avoid any quota limit. If you do not set this key, only very few requests may be allowed by Google"
+msgstr ""
+
+msgid "To get this API key, please visit %s, create a projet, allow Google Analytics, and then go to API console to get a %s"
+msgstr ""
+
+msgid "Support Display Advertising for Google (only if Universal Analytics is not activated)?"
+msgstr ""
+
+msgid "This option is to enable Remarketing with Google Analytics or Google Display Network (GDN) Impression Reporting."
+msgstr ""
+
+msgid "Configure the Google Analytics statistics to be compatible with French CNIL's recommandations"
+msgstr ""
+
+msgid "A small banner will be displayed to allow cookies (by default, no cookie will be used)"
+msgstr ""
+
+msgid "Sitemaps Configuration"
+msgstr ""
+
+msgid "Do you want to compute a Sitemaps file?"
+msgstr ""
+
+msgid "A Sitemap is an XML file that lists the URLs for your website. It informs search engines about URLs on your website that are available for crawling."
+msgstr ""
+
+msgid "No sitemap has been generated yet."
+msgstr ""
+
+msgid "An error occured on the next sitemap generation : %s."
+msgstr ""
+
+msgid "The last sitemap has been generated on %s."
+msgstr ""
+
+msgid "You may see your sitemap at %s."
+msgstr ""
+
+msgid "How many posts and pages will be included in this file?"
+msgstr ""
+
+msgid "If you have too many posts, set this number to 1000 for instance in order to avoid any memory issue. If you set this number to 0, all posts will be included."
+msgstr ""
+
+msgid "Do you want to notify %s when the sitemap is updated?"
+msgstr ""
+
+msgid "%s has never been notified yet. Waiting for the next update."
+msgstr ""
+
+msgid "An error occured when notifying %s for the last time."
+msgstr ""
+
+msgid "%s has be notified for the last time on %s."
+msgstr ""
+
+msgid "Improve your SEO with metatags"
+msgstr ""
+
+msgid "Do you want to add metatag to your page/post"
+msgstr ""
+
+msgid "Meta tags are snippets of code on a web page. They offer information about a page (metadata) in an invisible way but may enhanced the SEO (Search Engine Optimization) of your website."
+msgstr ""
+
+msgid "Add meta title"
+msgstr ""
+
+msgid "Add meta description"
+msgstr ""
+
+msgid "Add meta copyright"
+msgstr ""
+
+msgid "It will be by default: %s."
+msgstr ""
+
+msgid "Override the copyright of the website:"
+msgstr ""
+
+msgid "Add meta author"
+msgstr ""
+
+msgid "Override the author name"
+msgstr ""
+
+msgid "Add meta date (publication date, modification date, etc.)"
+msgstr ""
+
+msgid "Add meta keywords (category, keywords, etc.)"
+msgstr ""
+
+msgid "Add meta table of content"
+msgstr ""
+
+msgid "Add meta images"
+msgstr ""
+
+msgid "from %s to %s"
+msgstr ""
+
+msgid "The number of current user is %s"
+msgstr ""
+
+msgid "Current users"
+msgstr ""
+
+msgid "Week %s (%s)"
+msgstr ""
+
+msgid "%s %s"
+msgstr ""
+
+msgid "Google Analytics Data"
+msgstr ""
+
+msgid "According to Google Analytics Data, here is the number of visits and the number of page views."
+msgstr ""
+
+msgid "Today, %s people have visited your site and %s pages have been viewed (%s and %s for yesterday)."
+msgstr ""
+
+msgid "This week, %s people have visited your site and %s pages have been viewed (%s and %s for last week)."
+msgstr ""
+
+msgid "This month, %s people have visited your site and %s pages have been viewed (%s and %s for last month)."
+msgstr ""
+
+msgid "NOTA: Google considers that the week starts on sundays which is not ISO 8601 compliant (normally starts on mondays). So be careful when comparing weeks with your calendar: week numbers may be sligthly different."
+msgstr ""
+
+msgid "Local Data"
+msgstr ""
+
+msgid "According to Local Data, here is the number of visits and the number of page views."
+msgstr ""
+
+msgid "Visits Count"
+msgstr ""
+
+msgid "According to Google Analytics Data, here is the distribution of browser types and OS."
+msgstr ""
+
+msgid "According to Local Data, here is the distribution of browser types and OS."
+msgstr ""
+
+msgid "Browser and OS Statistics"
+msgstr ""
+
+msgid "Geolocalisation of visits/visitors during the last %s days"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "Viewed Page"
+msgstr ""
+
+msgid "Browser"
+msgstr ""
+
+msgid "OS"
+msgstr ""
+
+msgid "Referer"
+msgstr ""
+
+msgid "Time spent"
+msgstr ""
+
+msgid "Please note that the current local time of the server is %s. If it is not correct, please set the Wordpress installation correctly."
+msgstr ""
+
+msgid "If the entry is displayed for the first time, the time field will be in bold characters."
+msgstr ""
+
+msgid "If the user accesses your website for the first time today, the IP field will be in blod characters."
+msgstr ""
+
+msgid "Unknown keywords."
+msgstr ""
+
+msgid "Plugin: %s"
+msgstr ""
+
+msgid "Plugin: %s, website: %s"
+msgstr ""
+
+msgid "No data for now... Please wait until someone visits your website"
+msgstr ""
+
+msgid "Details on the Last %s Viewed Pages"
+msgstr ""
+
+msgid "You have configured no graph... Please go on the parameters tab to configure them."
+msgstr ""
+
+msgid "Web Statistics"
+msgstr ""
+
+msgid "Parameters"
+msgstr ""
+
+msgid "This plugin enables the improving of your traffic by supervising it and by helping the web crawlers to identify your contents to be indexed."
+msgstr ""
+
+msgid "Purpose of that plugin"
+msgstr ""
+
+msgid "In order to help the web crawlers to identifify the contents you want to share, this plugin creates a file named %s and a compressed file %s that list the different url to be indexed with a weight."
+msgstr ""
+
+msgid "The updates of these files may be notified to the following crawlers:"
+msgstr ""
+
+msgid "You also may add some %s to your headers. These tags helps the crawler to understand the page."
+msgstr ""
+
+msgid "How to help web crawlers?"
+msgstr ""
+
+msgid "This plugin also enables the creation of a chart that summarize the traffic volume on your server (either thanks to a local database or thanks to %s)."
+msgstr ""
+
+msgid "Supervising the traffic"
+msgstr ""
+
+msgid "This plugin may be render compliant with %s recommandation regarding personal data management."
+msgstr ""
+
+msgid "Then, if you use local database, a warning will be display to indicate that the plugin use some cookies and the two last bytes of the IP address will be masked."
+msgstr ""
+
+msgid "If you use %s, the system will work only for users that accept to explicitely accept this system thanks to a popup system."
+msgstr ""
+
+msgid "Compliance with Personal data management"
+msgstr ""
+
+msgid "How To"
+msgstr ""
+
+msgid "Manage translations"
+msgstr ""
+
+msgid "Give feedback"
+msgstr ""
+
+msgid "Other plugins"
+msgstr ""
+
+msgid "Google states that the User Rate Limit has been exceeded!"
+msgstr ""
+
+msgid "In order to avoid User Rate Limit, you should get an API key."
+msgstr ""
+
+msgid "Once a key generated, please configure it in the configuration tab."
+msgstr ""
+
+msgid "If you have just saved the API key in the parameters, please reload the page and it shoud work."
+msgstr ""
+
+msgid "The authorization seems to have expired or has been revoked. Please revoke the authorization (see below) and re-authentify!"
+msgstr ""
+
+msgid "An unknown error occured during the API request"
+msgstr ""
+
+msgid "No token provided!"
+msgstr ""
+
+msgid "No website selected for Google statistics (see the parameter tab)!"
+msgstr ""
+
+msgid "No website selected!"
+msgstr "اختيار أي موقع!"
+
+msgid "The file %s cannot be created. Please make sure that the file rights allow writing in the following folder: %s"
+msgstr "لا يمكن إنشاء الملف %s. يرجى التأكد من أن حقوق ملف تسمح الكتابة في المجلد التالي: %s"
+
+msgid "Problem with folder rights on %s"
+msgstr "المشكلة مع حقوق مجلد على %s"
+
